@@ -16,11 +16,12 @@ def part1(samples):
     print("Data shape: ", X.shape)
     return X
 
-
 def extract_features(samples):
     print("Extracting features ...")
-    pass #Fill this in
+    data = fetch_20newsgroups(subset='all')
+    print(data[0])
 
+print(extract_features)
 
 
 ##### PART 2
